@@ -406,9 +406,8 @@ display: none
   fill: currentColor !important;
 }
 
-
-/* "Annuler" — secondary action in File Upload field*/
-.fileinput-remove {
+/* "Annuler" — Bootstrap FileInput cancel button */
+.fileinput-cancel {
   background-color: #ffffff !important;
   border-color: #38cbcf !important;
   color: #38cbcf !important;
@@ -418,17 +417,19 @@ display: none
   border-radius: 10px !important;
 }
 
-.fileinput-remove:hover,
-.fileinput-remove:focus,
-.fileinput-remove:active {
+.fileinput-cancel:hover,
+.fileinput-cancel:focus,
+.fileinput-cancel:active,
+.fileinput-cancel-button:hover,
+.fileinput-cancel-button:focus,
+.fileinput-cancel-button:active {
   background-color: #bff1f8 !important;
   border-color: #38cbcf !important;
   color: #38cbcf !important;
 }
 
-/* Cancel icon follows text color */
-.fileinput-remove i,
-.fileinput-remove svg {
+.fileinput-cancel i,
+.fileinput-cancel svg {
   color: currentColor !important;
   fill: currentColor !important;
 }
