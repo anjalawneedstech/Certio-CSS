@@ -379,3 +379,38 @@ display: none;
 .da-field-checkboxes[value=""] {
 display: none
 }
+
+/* Certio — "Parcourir..." button */
+.btn-file {
+  background-color: #147c7f !important;
+  border-color: #147c7f !important;
+  color: #ffffff !important;
+}
+
+.btn-file:hover,
+.btn-file:focus,
+.btn-file:active {
+  background-color: #0f6668 !important;
+  border-color: #0f6668 !important;
+  color: #ffffff !important;
+}
+
+.btn-file i,
+.btn-file svg {
+  color: #ffffff !important;
+  fill: currentColor;
+}
+
+.fileinput-remove {
+  background-color: #ffffff !important;
+  border-color: #147c7f !important;
+  color: #147c7f !important;
+}
+
+.fileinput-remove:hover,
+.fileinput-remove:focus,
+.fileinput-remove:active {
+  background-color: #effcfc !important;
+  border-color: #147c7f !important;
+  color: #147c7f !important;
+}
