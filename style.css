@@ -372,3 +372,10 @@ a:hover {
 .btn-warning, .btn-info {
 font-weight: 500 !important;
 }
+
+select option[value=""] {
+display: none;
+}
+.da-field-checkboxes[value=""] {
+display: none
+}
